@@ -1,5 +1,5 @@
-# React Webpack Babel Starter
-> Minimal starter with hot module replacement (HMR) for rapid development.
+# React CRM App
+> Minimal front-end for crm app.
 
 * **[React](https://facebook.github.io/react/)** (16.x)
 * **[Webpack](https://webpack.js.org/)** (4.x)
