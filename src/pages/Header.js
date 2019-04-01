@@ -14,33 +14,36 @@ const styles = {
   menuButton: {
     marginLeft: -18,
     marginRight: 10,
-  }
+  },
 };
 
 class Header extends React.Component {
-
   render() {
-    const { menuStyle, handleChangeRequestNavDrawer,classes } = this.props;
+    const { menuStyle, handleChangeRequestNavDrawer, classes } = this.props;
     const style = {
       appBar: {
         position: 'fixed',
         top: 0,
         overflow: 'hidden',
-        maxHeight: 57
+        maxHeight: 57,
       },
     };
 
-
     return (
       <div className={classes.root}>
-        <AppBar position="static" style={{...menuStyle, ...style.appBar}} >
+        <AppBar position="static" style={{ ...menuStyle, ...style.appBar }}>
           <Toolbar variant="dense">
-            <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={handleChangeRequestNavDrawer}>
+            <IconButton
+              className={classes.menuButton}
+              color="inherit"
+              aria-label="Menu"
+              onClick={handleChangeRequestNavDrawer}
+            >
               <MenuIcon />
             </IconButton>
             <Typography variant="title" color="inherit">
               Project Portal
-          </Typography>
+            </Typography>
           </Toolbar>
         </AppBar>
       </div>

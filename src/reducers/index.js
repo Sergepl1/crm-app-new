@@ -5,5 +5,5 @@ import { reducer as reducerForm } from 'redux-form';
 const rootReducer = combineReducers({
   form: reducerForm,
   ajaxCallIsInProgress,
-})
+});
 export default rootReducer;

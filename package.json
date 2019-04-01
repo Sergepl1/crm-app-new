@@ -60,7 +60,6 @@
     "react-dom": "^16.7.0",
     "react-hot-loader": "^4.6.3",
     "react-redux": "^5.1.0",
-    "react-router-dom": "^4.3.1",
     "react-test-renderer": "^16.7.0",
     "redux": "^4.0.1",
     "redux-form": "^7.4.2",
@@ -75,5 +74,9 @@
     "webpack-dev-server": "^3.1.14",
     "webpack-merge": "^4.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "query-string": "^6.2.0",
+    "react-router-dom": "^4.3.1"
+  }
 }

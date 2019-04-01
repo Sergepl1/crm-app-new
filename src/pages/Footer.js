@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { List, ListItem, withStyles } from "@material-ui/core";
-import footerStyle from "../assets/footerStyle";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { List, ListItem, withStyles } from '@material-ui/core';
+import footerStyle from '../assets/footerStyle';
 
 class Footer extends React.Component {
   render() {
@@ -34,10 +34,11 @@ class Footer extends React.Component {
         </div>
         <p className={classes.right}>
           <span>
-            &copy; {1900 + new Date().getYear()}{" "}
+            &copy; {1900 + new Date().getYear()}{' '}
             <a href="http://Vivek@.com" className={classes.a}>
               Vivek team
-            </a>, made with love for a better web
+            </a>
+            , made with love for a better web
           </span>
         </p>
       </div>
@@ -45,7 +46,7 @@ class Footer extends React.Component {
   }
 }
 Footer.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(footerStyle)(Footer);

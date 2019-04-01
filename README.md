@@ -3,6 +3,7 @@
 
 * **[React](https://facebook.github.io/react/)** (16.x)
 * **[Webpack](https://webpack.js.org/)** (4.x)
+* **[Material UI](https://material-ui.com/)** (3.x)
 * **[Hot Module Replacement (HMR)](https://webpack.js.org/guides/hmr-react/)** using [React Hot Loader](https://github.com/gaearon/react-hot-loader) (4.x)
 * **[Babel](http://babeljs.io/)** (7.x)
 * [SASS](http://sass-lang.com/)
@@ -24,7 +25,7 @@
 
 **Production**
 
-`yarn run start-prod`
+`yarn start-prod`
 
 * Build app once (HMR disabled)
 * App served @ `http://localhost:3000`
