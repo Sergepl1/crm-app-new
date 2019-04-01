@@ -46,6 +46,7 @@ Command | Description
 
 **Note**: replace `yarn` with `npm` if you use npm.
 
-## See also
-* [React Webpack Typescript Starter](https://github.com/vikpe/react-webpack-typescript-starter)
-* [Isomorphic Webapp Starter](https://github.com/vikpe/isomorphic-webapp-starter)
+## Development flow
+All commits should be done in separate branch and merged to `master` only after the code review process.
+Branch should be named in next format: `feature/name_of_the_task`
+
