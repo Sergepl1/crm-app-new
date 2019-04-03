@@ -106,8 +106,8 @@ export class OrderList extends React.Component {
           path={`${match.url}`}
           component={() => (
             <PageBase
-              title="List of Project"
-              navigation="Project / Project List"
+              title="List of Order"
+              navigation="Order / Order List"
             >
               <Button
                 variant="fab"
@@ -123,7 +123,7 @@ export class OrderList extends React.Component {
                 <TableHead>
                   <TableRow>
                     <CustomTableCell>SrNo</CustomTableCell>
-                    <CustomTableCell>Project Name</CustomTableCell>
+                    <CustomTableCell>Order Name</CustomTableCell>
                     <CustomTableCell>Subject</CustomTableCell>
                     <CustomTableCell>Date</CustomTableCell>
                     <CustomTableCell>Type</CustomTableCell>
